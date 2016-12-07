@@ -1,4 +1,5 @@
 # [HumHub](https://github.com/humhub/humhub) Api
+# NOTE: I no longer have time to support or edit this module. If you would like to become a contributor/author, and maintain it please contact me.  It was my understanding that an official API would be forthcoming, but I haven't been able to keep up with humhub in several months.
 
 ## Pre-Release v 0.9
 
