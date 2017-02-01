@@ -1,7 +1,8 @@
 <?php
 
-use yii\helpers\Html;
+use Yii;
 use yii\helpers\Url;
+use yii\helpers\Html;
 use humhub\widgets\GridView;
 
 /* @var $this yii\web\View */
@@ -14,7 +15,7 @@ use humhub\widgets\GridView;
     <?php echo \humhub\modules\api\widgets\ApiUserMenu::widget(); ?>
     <p />
 
-    <?= GridView::widget([
+    <?php echo GridView::widget([
         'dataProvider' => $dataProvider,
         'columns' => [
             [
@@ -35,13 +36,13 @@ use humhub\widgets\GridView;
                 'class' => 'yii\grid\ActionColumn',
                 'buttons' => [
                         'view' => function($url, $model) {
-                            return echo Html::a('<i class="fa fa-eye"></i>',Url::toRoute(['view', 'id' => $model->id]), ['class' => 'btn btn-primary btn-xs tt']);
+                            return Html::a('<i class="fa fa-eye"></i>',Url::toRoute(['view', 'id' => $model->id]), ['class' => 'btn btn-primary btn-xs tt']);
                         },
                         'update' => function($url, $model) {
-                            return echo Html::a('<i class="fa fa-pencil"></i>', Url::toRoute(['update', 'id' => $model->id]), ['class' => 'btn btn-primary btn-xs tt']);
+                            return Html::a('<i class="fa fa-pencil"></i>', Url::toRoute(['update', 'id' => $model->id]), ['class' => 'btn btn-primary btn-xs tt']);
                         },
                         'delete' => function($url, $model) {
-                            return echo Html::a('<i class="fa fa-times"></i>', Url::toRoute(['delete', 'id' => $model->id]), ['class' => 'btn btn-danger btn-xs tt']);
+                            return Html::a('<i class="fa fa-times"></i>', Url::toRoute(['delete', 'id' => $model->id]), ['class' => 'btn btn-danger btn-xs tt']);
                         }
                 ]
             ],
