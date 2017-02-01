@@ -2,9 +2,9 @@
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/build-status/master)
 
-## Pre-Release v 0.10
+## [Pre-Release v 0.10](https://github.com/GreenVolume/humhub-api/releases/tag/v0.10)
 
-This module is for HumHub Version 0.20 (Yii 2) and greater and cannot be used with HumHub Version 0.1x (Yii 1.1)
+This module is for HumHub Version 1.1.2 (Yii 2) and greater and cannot be used with HumHub Version 0.1x (Yii 1.1)
 
 ## Description
 
