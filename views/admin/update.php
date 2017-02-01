@@ -1,9 +1,11 @@
 <?php
 
 use yii\helpers\Html;
+use yii\widgets\ActiveForm
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
+/* @var $form yii\widgets\ActiveForm */
 /* @var $model humhub\modules\api\models\ApiUser */
 ?>
 <div class="panel panel-default">
@@ -11,9 +13,9 @@ use yii\widgets\DetailView;
     <div class="panel-body">
         <p />
 
-        <?php $form = \yii\widgets\ActiveForm::begin(); ?>
+        <?php $form = ActiveForm::begin(); ?>
         <?php echo $hForm->render($form); ?>
-        <?php \yii\widgets\ActiveForm::end(); ?>
+        <?php ActiveForm::end(); ?>
 
     </div>
 </div>
