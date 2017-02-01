@@ -1,7 +1,7 @@
 {
     "id": "api",
     "name": "API",
-    "description": "Adds REST API Endpoints.",
+    "description": "Adds RESTful API Endpoints.",
     "keywords": ["api", "rest"],
     "version": "0.10.0",
     "humhub": {
