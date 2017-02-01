@@ -4,8 +4,8 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model humhub\modules\api\models\ApiUser */
 /* @var $form yii\widgets\ActiveForm */
+/* @var $model humhub\modules\api\models\ApiUser */
 ?>
 
 <div class="api-user-form">
