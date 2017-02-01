@@ -1,5 +1,7 @@
 # [HumHub](https://github.com/humhub/humhub) RESTful API
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/build-status/master)
+
 ## Pre-Release v 0.10
 
 This module is for HumHub Version 0.20 (Yii 2) and greater and cannot be used with HumHub Version 0.1x (Yii 1.1)
