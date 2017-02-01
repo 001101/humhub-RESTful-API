@@ -1,4 +1,4 @@
-# [HumHub](https://github.com/humhub/humhub) API
+# [HumHub](https://github.com/humhub/humhub) RESTful API
 
 ## Pre-Release v 0.10
 
