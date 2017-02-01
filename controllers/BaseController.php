@@ -35,7 +35,6 @@ class BaseController extends ActiveController
         $headers = $req->headers;
         $access_token = $headers->get('Authorization');
         $access_token = explode("Bearer ",$access_token)[1];
-        /* end custom DF */
         if (!isset($access_token)) {
             throw new UnauthorizedHttpException('Access unavailable without access_token.', 401);
         }
