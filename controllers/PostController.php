@@ -139,6 +139,4 @@ class PostController extends BaseController
             'data' => $post,
         ]);
     }
-
-
 }
