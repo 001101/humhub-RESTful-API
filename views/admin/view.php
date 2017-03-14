@@ -8,7 +8,7 @@ use yii\widgets\ActiveForm;
 /* @var $model humhub\modules\api\models\ApiUser */
 ?>
 <div class="panel panel-default">
-    <div class="panel-heading"><?php echo '<strong>View</strong> Api User'; ?></div>
+    <div class="panel-heading"><?php echo Yii::t('Restful_apiModule.base', '<strong>View</strong> Api User'; ?></div>
     <div class="panel-body">
         <p />
 
