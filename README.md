@@ -143,8 +143,8 @@ See Issues for list of TO-DO's
 
 ## Authors/Module Website
 
-__Module website:__ <https://github.com/GreenVolume/humhub-api>  
+__Module website:__ <https://github.com/GreenVolume/humhub-RESTful-API>  
 
-__Author website:__ [https://github.com/petersmithca](https://github.com/GreenVolume)    
-__Author:__ petersmithca
-__Editor:__ GreenVolume
+__Author:__ [petersmithca](https://github.com/petersmithca)    
+
+__Editor:__ [GreenVolume](https://github.com/GreenVolume)
