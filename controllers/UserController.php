@@ -71,9 +71,10 @@ class UserController extends BaseController
     public function actionIndex($eager = false){
 
         $users = User::find()
-            ->innerJoinWith('profile', $eager)
-            ->asArray()
-            ->all();
+            $query->innerJoinWith('profile', $eager);
+            $query->where(['user_id.user_id' => Yii::$app->user->id]);
+            $query->asArray();
+            $query->all();
         return $users;
     }
 
@@ -85,9 +86,10 @@ class UserController extends BaseController
      */
     public function actionView($id){
         $user = User::find()
-            ->innerJoinWith('profile')
-            ->asArray()
-            ->one();
+            $query->innerJoinWith('profile');
+            $query->where(['user_id.user_id' => Yii::$app->user->id]);
+            $query->asArray();
+            $query->one();
         return $user;
     }
 }
