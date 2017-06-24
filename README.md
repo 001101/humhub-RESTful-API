@@ -5,6 +5,7 @@
 ## [Pre-Release v 0.10](https://github.com/GreenVolume/humhub-api/releases/tag/v0.10)
 
 This module is for HumHub Version 1.1.2 (Yii 2) and greater and cannot be used with HumHub Version 0.1x (Yii 1.1)
+> Note: that no planned updating has been made of yet.
 
 ## Description
 
@@ -131,7 +132,7 @@ The following endpoints are currently available.
 3. Enable module from >Admin>Modules
 
 ## Requirements
-This Module requires pretty urls to be enabled - see: https://www.humhub.org/docs/guide-admin-installation.html#4-fine-tuning
+This Module requires pretty urls to be enabled - see: http://docs.humhub.org/admin-installation-configuration.html#url-rewriting-optional
 
 ## Known Issues:
 1. Cannot update a public post.  Will investigate after rest of data is complete.
