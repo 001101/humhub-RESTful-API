@@ -20,7 +20,7 @@ class Events extends \yii\base\Object
     public static function onAdminMenuInit(\yii\base\Event $event)
     {
         $event->sender->addItem([
-            'label' => 'Humhub Api',
+            'label' => Yii::t('base', '<strong>HumHub</strong> API'),
             'url' => Url::toRoute('/api/admin/index'),
             'group' => 'settings',
             'icon' => '<i class="fa fa-object-group"></i>',
