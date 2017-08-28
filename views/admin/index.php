@@ -1,6 +1,5 @@
 <?php
 
-use Yii;
 use yii\helpers\Url;
 use yii\helpers\Html;
 use humhub\widgets\GridView;
@@ -9,13 +8,14 @@ use humhub\widgets\GridView;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 ?>
+
 <div class="panel panel-default">
     <div class="panel-heading"><?php echo Yii::t('Restful_apiModule.base', '<strong>Manage</strong> Api Users'; ?></div>
     <div class="panel-body">
     <?php echo \humhub\modules\api\widgets\ApiUserMenu::widget(); ?>
     <p />
 
-    <?php echo GridView::widget([
+    <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'columns' => [
             [
