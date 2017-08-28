@@ -10,7 +10,7 @@ use humhub\widgets\GridView;
 ?>
 
 <div class="panel panel-default">
-    <div class="panel-heading"><?= Yii::t('base', '<strong>Manage</strong> Api Users'); ?></div>
+    <div class="panel-heading"><?= Yii::t('base', '<strong>Manage</strong> API Users'); ?></div>
     <div class="panel-body">
     <?php echo \humhub\modules\api\widgets\ApiUserMenu::widget(); ?>
     <p />
