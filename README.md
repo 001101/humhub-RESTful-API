@@ -2,7 +2,7 @@
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/build-status/master) [![Join the chat at https://gitter.im/GVHub/Lobby](https://badges.gitter.im/GVHub/Lobby.svg)](https://gitter.im/GVHub/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## [Pre-Release v 0.10](https://github.com/GreenVolume/humhub-api/releases/tag/v0.10)
+## [Pre-Release v 0.11](https://github.com/GreenMeteor/humhub-RESTful-API/releases/tag/v0.11)
 
 This module is for HumHub Version 1.1.2 (Yii 2) and greater and cannot be used with HumHub Version 0.1x (Yii 1.1)
 > Note: that no planned updating has been made of yet.
