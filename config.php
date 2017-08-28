@@ -1,4 +1,5 @@
 <?php
+
 namespace humhub\modules\api;
 
 return [
@@ -40,6 +41,5 @@ return [
       ]
     ]
 ];
-}
 
 ?>
