@@ -1,6 +1,7 @@
 <?php
 return [
-    '<strong>Manage</strong> Api Users' => '',
-    '<strong>Update</strong> Api User' => '',
-    '<strong>View</strong> Api User' => '',
+    '<strong>HumHub</strong> API' => '',
+    '<strong>Manage</strong> API Users' => '',
+    '<strong>Update</strong> API User' => '',
+    '<strong>View</strong> API User' => '',
 ];
