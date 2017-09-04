@@ -1,6 +1,6 @@
 # [HumHub](https://github.com/humhub/humhub) RESTful API
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/build-status/master) [![Join the chat at https://gitter.im/GVHub/Lobby](https://badges.gitter.im/GVHub/Lobby.svg)](https://gitter.im/GVHub/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GreenVolume/humhub-api/build-status/master) [![Join the chat at https://gitter.im/GreenMeteor](https://badges.gitter.im/GreenMeteor.svg)](https://gitter.im/GreenMeteor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## [Pre-Release v 0.11](https://github.com/GreenMeteor/humhub-RESTful-API/releases/tag/v0.11)
 
